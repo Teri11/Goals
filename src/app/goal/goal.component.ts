@@ -5,6 +5,7 @@ import { Goal } from '../goal';
   selector: 'app-goal',
   templateUrl: './goal.component.html',
   styleUrls: ['./goal.component.css']
+  
 })
 export class GoalComponent implements OnInit {
   goals: Goal[] = [
