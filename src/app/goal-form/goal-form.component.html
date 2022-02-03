@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <h2 class="text-centre">Creating a new Goal</h2>
-  <form #goalForm ='ngForm'>
+  <form (ngSubmit)='submitGoal()' #goalForm ='ngForm'>
     <div class="form-group">
 
       <label for="name">Name</label>
